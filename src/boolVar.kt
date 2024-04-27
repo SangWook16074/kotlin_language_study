@@ -1,6 +1,8 @@
 fun main() {
-    var isRunning : Boolean = true
-    println(isRunning)
-    isRunning = false
-    println(isRunning)
+    var a : Int = 10
+    var b : Int = 5
+    println(a > b)
+    println(a < b)
+    println(a >= b)
+    println(a <= b)
 }
